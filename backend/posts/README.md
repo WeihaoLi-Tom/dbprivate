@@ -1,0 +1,1 @@
+Demo datatype. Contains three fields in database - *id*, *title* and *body*. No such model / class actually exists in our end implementation of this project.

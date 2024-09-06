@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- head definitions go here -->
+         show_list html file<br>
+    </head>
+    <body>
+        <!-- the content goes here -->
+         This is just a test<br>
+         <ol>
+            <li><a href="../create-show/">Create_show</a></li>
+            <li><a href="">Show_list</a></li>
+            <li><a href="../upload/">Upload_video</a></li>
+            <li><a href="../">Video_list</a></li>
+         </ol>
+         <ul>
+            <li><a href="{% url 'upload_video' %}">Upload a Video</a></li>
+            <li><a href="{% url 'create_show' %}">Create a Show</a></li>
+            <li><a href="{% url 'show_list' %}">Show List</a></li>
+            <li><a href="{% url 'video_list' %}">Show List (Home)</a></li>
+        </ul>
+    </body>
+</html>

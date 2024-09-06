@@ -1,0 +1,68 @@
+.main-section {
+    background-color: rgba(0, 0, 0, 0); 
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+.main-section-background img{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.welcome-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.continue-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.title {
+    color: yellow;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.showcase-button,
+.login-button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.showcase-button {
+    background-color: black;
+    color: white;
+}
+
+.login-button {
+    background: linear-gradient(to right, #ff7f50, #6a5acd); /* 渐变效果 */
+    color: white;
+}
+
+/* Featured Artists部分样式 */
+.featured-artists {
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+}
+
+    .featured-artists h2 {
+        font-size: 30px;
+        font-weight: bold;
+    }

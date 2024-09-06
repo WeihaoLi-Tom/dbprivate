@@ -1,0 +1,8 @@
+.video-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    display: flex;
+}

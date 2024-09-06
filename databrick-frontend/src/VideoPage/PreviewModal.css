@@ -1,0 +1,59 @@
+.preview-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 110vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.preview-modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensures the close button is positioned correctly */
+
+    max-height: 70%;
+    overflow-y: auto;
+}
+
+/* .preview-modal button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.preview-modal button:hover {
+    background-color: #0056b3;
+} */
+
+.preview-modal-back-button {
+    background-color: #007BFF;
+    position: relative;
+    padding: 10px 20px;
+    top: 0px;
+    left: 730px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.preview-modal-back-button:hover {
+    background-color: #5a6268;
+}
